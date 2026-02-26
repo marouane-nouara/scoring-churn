@@ -123,13 +123,6 @@ scoring-churn/
 │   │
 │   └── visualization/
 │       └── plots.py           # Toutes les fonctions de visualisation
-│
-├── data/
-│   ├── raw/                   # csv 
-│   └── processed/             # Données transformées 
-│
-├── outputs/
-│   ├── figures/               # Graphiques générés (ROC, confusion, etc.)
 
 ```
 
