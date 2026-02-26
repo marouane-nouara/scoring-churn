@@ -130,10 +130,7 @@ scoring-churn/
 │
 ├── outputs/
 │   ├── figures/               # Graphiques générés (ROC, confusion, etc.)
-│   └── models/                # Modèles sauvegardés (.pkl)
-│
-├── notebooks/                 # Notebooks Jupyter (exploration)
-└── tests/                     # Tests unitaires
+
 ```
 
 ---
