@@ -125,8 +125,8 @@ scoring-churn/
 │       └── plots.py           # Toutes les fonctions de visualisation
 │
 ├── data/
-│   ├── raw/                   # ← Placer BDD_PROJETS.csv ici
-│   └── processed/             # Données transformées (auto-générées)
+│   ├── raw/                   # csv 
+│   └── processed/             # Données transformées 
 │
 ├── outputs/
 │   ├── figures/               # Graphiques générés (ROC, confusion, etc.)
@@ -209,13 +209,6 @@ pytest tests/ -v
 deactivate
 ```
 
----
-
-## ⚠️ Important
-
-Ne pas inclure le dossier `.venv/` ni les données `data/raw/` dans le rendu Git (déjà dans `.gitignore`).
-
----
 
 ## 🔬 Méthodologie détaillée
 
