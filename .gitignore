@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.mypy_cache/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Données (non committées — trop lourdes ou sensibles)
+data/raw/
+data/processed/
+
+# Modèles sauvegardés
+outputs/models/*.pkl
+
+# Figures générées
+outputs/figures/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
